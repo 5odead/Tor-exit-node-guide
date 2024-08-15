@@ -6,5 +6,7 @@ Tor is a network of virtual tunnels that allows you to improve your privacy and 
 ### What is Tor Browser
 Tor Browser uses the Tor network to protect your privacy and anonymity
 
-### Exi
-Tor Browser typically selects exit nodes randomly for internet browsing. However, there are scenarios where using specific exit nodes is necessary—such as for testing, research, or accessing content from a particular country or region.
+### Exit Nodes
+The exit node is where your web traffic exits the Tor network and is directed to its final destination. Tor Browser typically selects exit nodes randomly for internet browsing. However, there are scenarios where using specific exit nodes is necessary such as for testing, research, or accessing content from a particular country or region.
+
+For References, see [References.md](References.md).
