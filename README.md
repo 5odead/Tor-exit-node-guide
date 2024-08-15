@@ -12,17 +12,18 @@ The exit node is where your web traffic exits the Tor network and is directed to
 
 ### Torrc Configuration File
 The core Tor configuration file is called torrc, It can be found at <br>
-Windows:  C:\Users\<YourUsername>\AppData\Roaming\Tor\torrc <br>
-macOS/Linux:  /etc/tor/torrc or ~/.tor/torrc <br>
+<br> **Windows**:  C:\Users\<YourUsername>\AppData\Roaming\Tor\torrc <br>
+**macOS/Linux**:  /etc/tor/torrc or ~/.tor/torrc <br>
 <br >If you changed the installation directory when installing then check the directory where you installed it
 
 ### Modifying
 To Modify the torrc, just add the lines :<br>
-![Tor Configuration File](eg1.png)
-<br> Replace `{ua}` with country of your choice <br>
+![Tor Configuration File](eg1.png) <br>
+Replace `{ua}` with Country of your choice <br>
 <br> **StrictNodes 0** - Tor will prefer to use the specified nodes but will connect to others if necessary to maintain the connection.
 <br>
-**StrictNodes 1** -This means Tor will not connect to any nodes outside the ones specified.
-
+**StrictNodes 1** -This means Tor will not connect to any nodes outside the ones specified. <br>
+![Tor Configuration File](eg2.png) <br>
+You can also add multiple Countries by placing them after a comma. 
 ### For References
 Check [References.md](References.md).
