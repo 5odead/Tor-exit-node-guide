@@ -7,4 +7,5 @@
    Overview of how the Tor network operates. Available at: [Tor Network Overview](https://www.torproject.org/about/overview.html.en)
 
 3. **Country Codes**  
-   Frequently Asked Questions about Tor. Available at: [Country List](https://sccmrookie.blogspot.com/2016/03/tor-country-codes-list.html)
+   Snippets and Codes Available at: [Country List](https://sccmrookie.blogspot.com/2016/03/tor-country-codes-list.html), 
+   [Snippets](https://communitydocs.accessnow.org/147-Tor_force_exit_nodes.html#problem)
