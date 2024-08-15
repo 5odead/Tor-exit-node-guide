@@ -18,7 +18,7 @@ macOS/Linux:  /etc/tor/torrc or ~/.tor/torrc <br>
 
 ### Modifying
 To Modify the torrc, just add the lines :<br>
-![Tor Configuration File](torrc.PNG)
+![Tor Configuration File](eg1.png)
 <br> Replace `{ua}` with country of your choice <br>
 <br> **StrictNodes 0** - Tor will prefer to use the specified nodes but will connect to others if necessary to maintain the connection.
 <br>
