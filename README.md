@@ -20,10 +20,19 @@ The core Tor configuration file is called torrc, It can be found at <br>
 To Modify the torrc, just add the lines :<br>
 ![Tor Configuration File](eg1.png) <br>
 Replace `{ua}` with Country of your choice <br>
+
 <br> **StrictNodes 0** - Tor will prefer to use the specified nodes but will connect to others if necessary to maintain the connection.
 <br>
 **StrictNodes 1** -This means Tor will not connect to any nodes outside the ones specified. <br>
-![Tor Configuration File](eg2.png) <br>
-You can also add multiple Countries by placing them after a comma. 
+
+<br> ![Tor Configuration File](eg2.png) <br>
+You can also add multiple Countries by placing them after a comma.<br>
+
+<br> ![Tor Configuration File](eg3.png) <br>
+If you have a specific IP Address for exit node then you can use it in the same manner. <br>
+
+### Blacklisting
+You can also use this as a security measure by configuring Tor to completely avoid certain exit nodes. <br>
+
 ### For References
 Check [References.md](References.md).
