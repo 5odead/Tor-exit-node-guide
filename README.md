@@ -33,6 +33,9 @@ If you have a specific IP Address for exit node then you can use it in the same 
 
 ### Blacklisting
 You can also use this as a security measure by configuring Tor to completely avoid certain exit nodes. <br>
-
+<br> ![Tor Configuration File](eg4.png) <br>
+Exclude the mentioned Country Code from using as Exit Node <br>
+<br> ![Tor File](eg5.png) <br>
+Exclude the mentioned Country Codes from using as Nodes <br>
 ### For References
 Check [References.md](References.md).
