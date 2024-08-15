@@ -17,10 +17,12 @@ macOS/Linux:  /etc/tor/torrc or ~/.tor/torrc <br>
 <br >If you changed the installation directory when installing then check the directory where you installed it
 
 ### Modifying
-To Modify the torrc, just add the lines <br>
-`ExitNodes {jp} <br>
-StrictNodes 1
-`
+To Modify the torrc, just add the lines :<br>
+![Tor Configuration File](torrc.PNG)
+<br> Replace `{ua}` with country of your choice <br>
+<br> **StrictNodes 0** - Tor will prefer to use the specified nodes but will connect to others if necessary to maintain the connection.
+<br>
+**StrictNodes 1** -This means Tor will not connect to any nodes outside the ones specified.
 
 ### For References
 Check [References.md](References.md).
